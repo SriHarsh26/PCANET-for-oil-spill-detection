@@ -31,3 +31,38 @@ To run this notebook in a **Kaggle Notebook Environment**:
    If not pre-installed in Kaggle, install missing packages using:
    ```python
    !pip install spectral chainer tqdm
+
+3. **Run the Notebook:**
+
+   - The notebook is organized into training and testing sections.
+   
+   - It uses PCANet for feature extraction and an SVM for classification.
+   
+   - The final output includes:
+   
+      - Test accuracy
+   
+      - Confusion matrix
+   
+      - Side-by-side visualization of Ground Truth vs Predicted Output
+
+4. Customize Dataset Path: If needed, modify the dataset path:
+
+    ```python
+    path = "/kaggle/input/gm01/GM01.mat"
+   
+**Requirements**
+   - Python 3.8+
+   - NumPy
+   - SciPy
+   - Scikit-learn
+   - Chainer
+   - Spectral
+   - Matplotlib
+   - TQDM
+
+
+**License**
+
+   This project is for academic and research use only.
+
